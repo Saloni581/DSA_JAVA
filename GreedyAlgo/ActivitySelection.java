@@ -3,7 +3,8 @@ import java.util.*;
 public class ActivitySelection {
 public static void main(String args[]) {
     //ASSUMPTION => ********Activities are sorted by their END TIME***********
-    //TC => 0(n)
+    //TC => 0(n) + if sorting is not done already then -> 2d array sorting TC = 0(log(n))
+    //In this way total Time Complexity will be : 0(nlogn)
 
     //Starting and Ending time of working
     // int startTime[] = {1,3,0,5,8,5};
