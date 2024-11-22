@@ -47,6 +47,7 @@ public class SudokuSolver {
                if(sudokuSolver(sudoku, nextRow, nextCol)){
                      return true;
                }
+               // backtrack step -> if above statement return false
                sudoku[row][col] = 0;
              }
              return false;
